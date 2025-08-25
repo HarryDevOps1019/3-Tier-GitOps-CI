@@ -122,7 +122,7 @@ jobs:
           push: true
           tags: |
             harry1019/frontend:latest
-            harry1019/frontend:${{ env.IMAGE_TAG }
+            harry1019/frontend:${{ env.IMAGE_TAG }}
             
   trivy_image_scan:
     runs-on: ubuntu-latest
